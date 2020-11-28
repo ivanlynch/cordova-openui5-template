@@ -18,7 +18,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ## 🚀[1.0.0] - 2020-11-28
 
-###Added
+### Added
 
 - Initial commit
 
@@ -35,7 +35,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 Open your terminal and execute:
 
-###Degit
+### Degit
 
 ```bash
 npx degit ivanlynch/cordova-openui5-template#main folder-name
@@ -87,9 +87,9 @@ I did a little task in gulp to download needed files from [OpenUI5 SDK](https://
 - @openui5/sap.ui.unified
 - @openui5/themelib_sap_fiori_3
 
-#Platforms 📱📟
+# Platforms 📱📟
 
-###Adding needed platforms
+### Adding needed platforms
 
 Open your terminal in the root of the project
 
@@ -98,13 +98,13 @@ cordova platform add android
 cordova platform add ios
 ```
 
-###Running Android
+### Running Android
 
 ```bash
 cordova run android
 ```
 
-###Running IOS
+### Running IOS
 
 > Note: in IOS you need to do add some lines of code in the /platforms/ios/HelloCordova/config.xml because a known [issue](Handling XMLHttpRequests (XHR)
 
@@ -119,7 +119,7 @@ you need to add at the end of the file:
 cordova run ios
 ```
 
-##TODOS 📔
+## TODOS 📔
 
 - Dinamically look into the installed dependencies and download the needed files (Improve the gulp task)
 - Add any functionality to change the package name of the projects
