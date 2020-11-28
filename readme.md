@@ -50,7 +50,7 @@ cd folder-name && npm i
 after installation of dependencies you need to execute:
 
 ```bash
-	gulp
+gulp
 ```
 
 I did a little task in gulp to download needed files from [OpenUI5 SDK](https://openui5.hana.ondemand.com/ "OpenUI5") if you want to download and use sap libraries downloading its directly from OpenUI5 github you go to encounter an error that some files are missing like: library.css or library-parameters.json in this template i added only:
@@ -70,13 +70,13 @@ git clone https://github.com/ivanlynch/cordova-openui5-template.git
 then cd into the repo folder
 
 ```bash
-	cd cordova-openui5-template && npm i
+cd cordova-openui5-template && npm i
 ```
 
 after installation of dependencies you need to execute:
 
 ```bash
-	gulp
+gulp
 ```
 
 I did a little task in gulp to download needed files from [OpenUI5 SDK](https://openui5.hana.ondemand.com/ "OpenUI5") if you want to download and use sap libraries downloading its directly from OpenUI5 github you go to encounter an error that some files are missing like: library.css or library-parameters.json in this template i added only:
