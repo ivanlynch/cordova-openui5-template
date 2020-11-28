@@ -1,10 +1,14 @@
 # Motivation
 
-The first motivation to create this repo is because HAT is out of maintenance since this [post](https://blogs.sap.com/2017/12/18/end-of-maintenance-for-hybrid-app-toolkit-local-add-on/ "post") but in the moment that they announced this post the SAP Web Ide was working.
+## Short
 
-Right now the SAP team is focusing on SAP Business Application Studio to develop web fiori like applications but for mobile the only way is MDK(Mobile Development Kit) that is the recommended way by the SAP development team or native development (Android, IOS) in my personal opinion i think MDK is not a good technology to learn.
+I want to make this repo as an alternative to build mobile applications with OpenUI5
 
-In the meantime the OpenUI5 team are creating web components to develop react/vue/angular based applications with OpenUI5. I think they are going through the right way and hopefully in an closer future they start any react-native based project.
+## Long
+
+The first motivation to create this repo is because HAT is out of maintenance since this [post](https://blogs.sap.com/2017/12/18/end-of-maintenance-for-hybrid-app-toolkit-local-add-on/ "post") but in the moment that they announced this post the SAP Web Ide was working right now the only chose is the SAP Business application studio and it does not comes anymore with HAT 😌.
+
+In the meantime the OpenUI5 team are releasing web components to develop react/vue/angular based applications. I think they are going through the right way and hopefully in an closer future they start any react-native based project 😏 😏 .
 
 ![Cordova](https://spotsolutions.com/wp-content/uploads/2017/06/cordova_logo_normal_dark_large.png "Cordova")
 
