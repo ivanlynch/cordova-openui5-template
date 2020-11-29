@@ -24,7 +24,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Changed
 
-- Dinamically look into the installed dependencies and download the needed files (Improve the gulp task)
 + In the gulpfile right now is downloading the latest version of the mobile-runtime (Is a little bit faster)
 
 ## Prerequisites 🔧🔧
@@ -120,5 +119,5 @@ cordova run ios
 
 ## TODOS 📔
 
-- Dinamically look into the installed dependencies and download the needed files (Improve the gulp task)
 - Add any functionality to change the package name of the projects
+- Add any way to setup the openui5 version because currently is using the latest version tag
