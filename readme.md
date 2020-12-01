@@ -20,20 +20,24 @@ All changes to the **cordova-openui5-template** will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 🚀[1.0.0] - 2020-11-28
+## 🚀[1.0.1] - 2020-11-29
 
-### Added
+### Changed
 
-- Initial commit
++ In the gulpfile right now is downloading the latest version of the mobile-runtime (Is a little bit faster)
 
 ## Prerequisites 🔧🔧
 
 - Nodejs
-- Installation instructions can be found [Here](https://nodejs.org/en/ "Here")
+- - Installation instructions can be found [Here](https://nodejs.org/en/ "Here")
 - Cordova
+  ```bash
   npm install -g cordova
+  ```
 - Gulp
+  ```bash
   npm install --global gulp-cli
+   ```
 
 # 🐑 Clone & Install 🐑
 
@@ -57,13 +61,8 @@ after installation of dependencies you need to execute:
 gulp
 ```
 
-I did a little task in gulp to download needed files from [OpenUI5 SDK](https://openui5.hana.ondemand.com/ "OpenUI5") if you want to download and use sap libraries downloading its directly from OpenUI5 github you go to encounter an error that some files are missing like: library.css or library-parameters.json in this template i added only:
+Note: Right now the tasks defined in Gulpfile only download the latest mobile-runtime version in the meantime you can edit the gulpfile to fit your needs
 
-- @openui5/sap.m
-- @openui5/sap.ui.core
-- @openui5/sap.ui.layout
-- @openui5/sap.ui.unified
-- @openui5/themelib_sap_fiori_3
 
 ### Git
 
@@ -83,13 +82,8 @@ after installation of dependencies you need to execute:
 gulp
 ```
 
-I did a little task in gulp to download needed files from [OpenUI5 SDK](https://openui5.hana.ondemand.com/ "OpenUI5") if you want to download and use sap libraries downloading its directly from OpenUI5 github you go to encounter an error that some files are missing like: library.css or library-parameters.json in this template i added only:
+Note: Right now the tasks defined in Gulpfile only download the latest mobile-runtime version in the meantime you can edit the gulpfile to fit your needs
 
-- @openui5/sap.m
-- @openui5/sap.ui.core
-- @openui5/sap.ui.layout
-- @openui5/sap.ui.unified
-- @openui5/themelib_sap_fiori_3
 
 # Platforms 📱📟
 
@@ -125,5 +119,5 @@ cordova run ios
 
 ## TODOS 📔
 
-- Dinamically look into the installed dependencies and download the needed files (Improve the gulp task)
 - Add any functionality to change the package name of the projects
+- Add any way to setup the openui5 version because currently is using the latest version tag
